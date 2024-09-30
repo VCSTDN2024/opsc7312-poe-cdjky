@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6BDBD"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Food Search -->
+    <EditText
+        android:id="@+id/foodSearchEditText"
+        android:layout_width="376dp"
+        android:layout_height="58dp"
+        android:hint="Enter food to search"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#0E0E0E"
+        android:padding="10dp"
+        android:text="Search" />
+
+    <TextView
+        android:id="@+id/nutritionDetailsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Nutrition Details"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/nf_total_fat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Fat" />
+
+    <TextView
+        android:id="@+id/nf_saturated_fat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saturated Fat" />
+
+    <TextView
+        android:id="@+id/nf_cholesterol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cholesterol" />
+
+    <TextView
+        android:id="@+id/nf_sodium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sodium" />
+
+    <TextView
+        android:id="@+id/nf_total_carbohydrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Carbohydrate" />
+
+    <TextView
+        android:id="@+id/nf_dietary_fiber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dietary Fiber" />
+
+    <TextView
+        android:id="@+id/nf_sugars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sugars" />
+
+    <TextView
+        android:id="@+id/nf_protein"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Protein" />
+
+    <TextView
+        android:id="@+id/nf_vitamin_d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vitamin D" />
+
+    <TextView
+        android:id="@+id/nf_calcium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcium" />
+
+    <TextView
+        android:id="@+id/nf_iron"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iron" />
+
+    <TextView
+        android:id="@+id/nf_potassium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Potassium" />
+</LinearLayout>

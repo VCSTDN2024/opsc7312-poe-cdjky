@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "814309610916",
+    "project_id": "fitproplus-7b50a",
+    "storage_bucket": "fitproplus-7b50a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814309610916:android:fe06bffce6d03d24d71d31",
+        "android_client_info": {
+          "package_name": "com.example.fitproplus_final"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKp0fuxNHKztLGhEajA33NYo53QK5DVT4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
