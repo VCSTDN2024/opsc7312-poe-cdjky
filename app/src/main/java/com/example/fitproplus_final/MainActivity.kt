@@ -30,10 +30,13 @@ class MainActivity : AppCompatActivity() {
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        Utils.applySavedLanguage(this) // Apply language preference globally
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Set a random quote to the TextView
+
+
+    // Set a random quote to the TextView
         val quoteTextView: TextView = findViewById(R.id.quoteTextView)
         val randomQuote = getRandomQuote()
         quoteTextView.text = randomQuote

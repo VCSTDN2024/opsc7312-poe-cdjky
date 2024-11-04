@@ -1,3 +1,33 @@
 <resources>
-    <string name="app_name">FitProPlus_Final</string>
+    <!-- App Name -->
+    <string name="app_name_en">FitProPlus</string>
+    <string name="app_name_af">FitProPlus</string>
+    <string name="app_name_zu">FitProPlus</string>
+
+    <!-- Login Strings -->
+    <string name="login_en">Login</string>
+    <string name="login_af">Teken in</string>
+    <string name="login_zu">Ngena ngemvume</string>
+
+    <!-- Sign Up Strings -->
+    <string name="signup_en">Sign Up</string>
+    <string name="signup_af">Teken aan</string>
+    <string name="signup_zu">Bhalisa</string>
+
+    <!-- Settings Strings -->
+    <string name="settings_en">Settings</string>
+    <string name="settings_af">Instellings</string>
+    <string name="settings_zu">Izilungiselelo</string>
+
+    <!-- Language Label -->
+    <string name="language_en">Languages</string>
+    <string name="language_af">Tale</string>
+    <string name="language_zu">Izilimi</string>
+
+    <!-- Spinner Language Options -->
+    <string-array name="languages_array">
+        <item>English</item>
+        <item>Afrikaans</item>
+        <item>Zulu</item>
+    </string-array>
 </resources>

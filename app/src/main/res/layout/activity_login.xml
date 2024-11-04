@@ -8,7 +8,6 @@
     android:padding="16dp"
     tools:context=".LoginActivity">
 
-
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="0dp"
@@ -41,6 +40,29 @@
             android:backgroundTint="#D9CACA"
             android:orientation="vertical"
             android:padding="16dp">
+
+            <!-- Language Selection Spinner -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="108dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="8dp"
+                    android:text="language"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/languageSpinner"
+                    android:layout_width="197dp"
+                    android:layout_height="60dp"
+                    android:entries="@array/languages_array" />
+            </LinearLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -88,5 +110,4 @@
                 android:textStyle="bold" />
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
