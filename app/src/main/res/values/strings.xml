@@ -30,4 +30,20 @@
         <item>Afrikaans</item>
         <item>Zulu</item>
     </string-array>
+
+    <string name="app_name">FitProPlus_Final</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+
+    <!-- Array for Spinner options -->
+    <string-array name="language_array">
+        <item>English</item>
+        <item>Afrikaans</item>
+        <item>Zulu</item>
+    </string-array>
 </resources>
+
+
+
+
+
